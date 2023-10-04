@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+input {
+  height: 1.5rem;
+}
+
+#submit {
+  margin-top: 1.3rem;
+  height: 3rem;
+  width: 6rem;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background: rgba(23, 180, 23, 0.855);
+  cursor: pointer;
+}
+
+#submit:active {
+    border-radius: 15px;
+}
+
+
+.success{
+   color: white;
+   background: rgb(41, 181, 41);
+}
+
+.error{
+    color: red;
+  }
+
+  .msg{
+    visibility: hidden;
+    color: red;
+  }

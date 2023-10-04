@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="" class="form">
+      <input type="text" name="name" id="name" placeholder="Your name" />
+      <p class="msg">Only lowercase , min 5 letters - max 10.</p>
+      <input
+        type="email"
+        name="email"
+        id="mail"
+        placeholder="Your mail address"
+      />
+      <p class="msg">That's not a valid mail address</p>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="Your password"
+      />
+      <p class="msg">Password must be min 8 letters and max 15.</p>
+      <input
+        type="password"
+        name="confirmPassword"
+        id="confirmPassword"
+        placeholder="Confirm you password"
+      />
+      <p class="msg">Password doesn't match !</p>
+      <input type="submit" value="submit" id="submit" />
+    </form>
+    <script src="app.js"></script>
+  </body>
+</html>

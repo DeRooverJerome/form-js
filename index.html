@@ -1,38 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <form action="" class="form">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <form action="" class="form">
+    <div class="inputCheckMark">
       <input type="text" name="name" id="name" placeholder="Your name" />
-      <p class="msg">Only lowercase , min 5 letters - max 10.</p>
-      <input
-        type="email"
-        name="email"
-        id="mail"
-        placeholder="Your mail address"
-      />
-      <p class="msg">That's not a valid mail address</p>
-      <input
-        type="password"
-        name="password"
-        id="password"
-        placeholder="Your password"
-      />
-      <p class="msg">Password must be min 8 letters and max 15.</p>
-      <input
-        type="password"
-        name="confirmPassword"
-        id="confirmPassword"
-        placeholder="Confirm you password"
-      />
-      <p class="msg">Password doesn't match !</p>
-      <input type="submit" value="submit" id="submit" />
-    </form>
-    <script src="app.js"></script>
-  </body>
+      <i class="fa-solid fa-circle-check fa-2xs" style="color: #27a03f;"></i>
+    </div>
+    <p class="msg">Lowercase , min 5 letters, max 10. No empty fields</p>
+    <div class="inputCheckMark">
+      <input type="email" name="email" id="mail" placeholder="Your mail address" />
+      <i class="fa-solid fa-circle-check fa-2xs mailCheck" style="color: #27a03f;"></i>
+    </div>
+    <p class="msg">That's not a valid mail address</p>
+    <div class="inputCheckMark">
+      <input type="password" name="password" id="password" placeholder="Your password" />
+      <i class="fa-solid fa-circle-check fa-2xs passwordCheck" style="color: #27a03f;"></i>
+    </div>
+    <p class="msg">Password must be min 8 letters and max 15.</p>
+    <div class="inputCheckMark">
+      <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirm password" />
+      <i class="fa-solid fa-circle-check fa-2xs confirmCheck" style="color: #27a03f;"></i>
+    </div>
+    <p class="msg">Password doesn't match !</p>
+    <input type="submit" value="Confirm" id="submit"/>
+  </form>
+  <script src="app.js"></script>
+</body>
+
 </html>

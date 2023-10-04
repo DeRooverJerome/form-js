@@ -86,6 +86,7 @@ form.addEventListener("submit", (e) => {
     inputSubmit.classList.add("allGood");
     if (inputSubmit.classList.contains("allGood")) {
       inputSubmit.addEventListener("click", () => {
+        alert("Formulaire Envoyé");
         location.reload();
       });
     }

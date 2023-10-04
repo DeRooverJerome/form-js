@@ -13,7 +13,7 @@ form {
   width: 400px;
   height: 400px;
   border-radius: 20px;
-  background-color:#7f8fa6;
+  background-color: #7f8fa6;
   margin-top: 120px;
   padding: 15px;
   display: flex;
@@ -29,7 +29,7 @@ input {
   border-radius: 5px;
 }
 
-input::placeholder{
+input::placeholder {
   padding-left: 10px;
 }
 
@@ -47,65 +47,65 @@ input::placeholder{
 }
 
 #submit:active {
-    border-radius: 40px;
+  border-radius: 40px;
 }
 
 /* boutton submit allGood */
 
-.allGood{
+.allGood {
   margin-top: 1.3rem;
   height: 3rem;
   width: 6rem;
   border-radius: 10px;
   border: none;
-  color: white!important;
+  color: white !important;
   padding: 5px;
-  background: rgb(4, 156, 4)!important;
-  cursor: pointer!important;
+  background: rgb(4, 156, 4) !important;
+  cursor: pointer !important;
 }
 
-.success{
-   color: black;
+.success {
+  color: black;
 }
 
 /* message d'erreur individuel prend l'importance de l'opacity */
 
-.error{
-    color: red;
-    transition: 0.2s;
-    opacity: 1!important;
-  }
+.error {
+  color: red;
+  transition: 0.2s;
+  opacity: 1 !important;
+}
 
 /* Tous les messages d'erreur sont invisibles */
 
-  .msg{
-    opacity: 0;
-  }
- 
-  /* Tous les check Mark sont invisible */
+.msg {
+  opacity: 0;
+}
 
-.fa-solid{
+/* Tous les check Mark sont invisible */
+
+.fa-solid {
   opacity: 0;
 }
 
 /* Check mark visible */
 
-.checkMark{
-  opacity: 1!important;
+.checkMark {
+  opacity: 1 !important;
 }
 
-.fa-solid{
+.fa-solid {
   font-size: 120%;
   margin-left: -42px;
 }
 
-.inputCheckMark{
+.inputCheckMark {
   display: flex;
   align-items: center;
   gap: 20px;
 }
 
-input{
+input {
   padding-left: 10px;
   width: 220px;
 }
